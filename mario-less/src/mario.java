@@ -26,12 +26,13 @@ public class mario {
 
 //      A for loop that creates a wall "height" high starting from 1 upto "height"
         for (int i = 1; i <= height; i++) {
+
 //          //Prints each row, "print height - i" (" ")spaces and i ("#") hashtags
             for(int j = (int)height; j > 0; j--){
                 if(j <= i)
                     System.out.print("#");
                 else
-                    System.out.print(" ");
+                    System.out.print(".");
 
             }
 //          Moves cursor to next row
